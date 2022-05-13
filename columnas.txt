@@ -1,0 +1,16 @@
+COLUMNAS EN FLUTTER:
+para posicionar un elemento debajo del otro
+
+Column(
+        children: [
+          SizedBox(height: 20),
+          Text('Este es el titulo numero 1'),
+          Container(
+            margin: EdgeInsets.only(left: 30, right: 30, top: 40, bottom: 0),
+            child: TextField(
+              decoration: InputDecoration(hintText: 'Descripcion'),
+            ),
+          ),
+          ElevatedButton(onPressed: () {}, child: Text('CONTINUAR'))
+        ],
+      ),
